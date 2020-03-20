@@ -1,19 +1,7 @@
-# aplan-vhr
+菜单项数据加载成功之后，在前端有几个可以存放的地方，
+存放的地方需要满足的条件：可以被所有vue来调用。
 
-## Project setup
-```
-yarn install
-```
+1. sessionStorage       都可以查看
+2. localStorage         都可以查看  安全度不高
+3. vuex   状态管理      可以确保数据不轻易给别人看到 一个公共的地方 项目很大的时候，vuex不能不用               
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
